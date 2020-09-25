@@ -1,0 +1,81 @@
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.card-image {
+    background-image: url(/img/narancs.jpg);
+    background-size: cover;
+}
+
+.jumbotronBackground {
+    background-color: black;
+    padding: 10px;
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+
+/* Űrlap */
+.contact {
+    padding: 5%;
+    height: 1200px;
+}
+
+.col-md-3 {
+    background-color: coral;
+    padding: 3%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.contact-info {
+    margin-top: 15%;
+}
+
+.contact-info i {
+    font-size: 48px;
+    margin-bottom: 10%;
+}
+
+.contact-info h2 {
+    margin-bottom: 10%;
+}
+
+.col-md-9 {
+    background-color: lightgray;
+    padding: 4%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.contact-form label {
+    font-weight: 700;
+}
+
+.contact-form button {
+    background-color: aquamarine;
+    color: black;
+    font-weight: 700;
+    width: 25%;
+    padding: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-3 {
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+    }
+    .col-md-9 {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+    }
+}
+/* Űrlap VÉGE */
+    
+/* Bolt oldal */    
+
+.col-lg-3 {
+    margin-bottom: 10px;
+}
+
+/* Bolt oldal vége */
